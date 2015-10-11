@@ -11,8 +11,9 @@ public class UberTest extends UberBase {
 
         //signuptoDriveforUberBlack();
 
-        signuptoDriveforUberTaxi();
+        //signuptoDriveforUberTaxi();
         //signuptoDriveforDelivery();
+        signuptoRide();
     }
 
 }

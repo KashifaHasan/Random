@@ -58,4 +58,22 @@ public class UberBase extends Base {
         typeByCss("#referral-code", "12345");
         clickByXpath("html/body/div[2]/div/form/button");
     }
+
+    public void signuptoRide(){
+
+        clickByCss(".icon-menu");
+        clickByXpath("html/body/div[2]/nav/div[1]/a[3]");
+        typeByCss("#email", "mdrahmantest@gmail.com");
+        typeByCss("#password", "test123");
+        typeByCss("#first_name", "MD");
+        typeByCss("#last_name", "Rahman");
+        typeByCss("#mobile", "1234567890");
+        clickByXpath(".//*[@id='language']/option[9]");
+        typeByCss("#card_number", "1234567890123456");
+        typeByCss("#card_code","123");
+        clickByXpath(".//*[@id='card_expiration_month-month']/option[1]");
+        clickByXpath(".//*[@id='card_expiration_year-year']/option[4]");
+        typeByCss("#billing_zip", "11435");
+        clickByXpath("html/body/section/section/div[1]/section[2]/article/form/div[12]/div[1]/div[1]");
+    }
 }
